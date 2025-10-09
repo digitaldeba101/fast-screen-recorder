@@ -1,5 +1,4 @@
-# arre_suno_gao_balo
-U R Awesome !
+# U R Awesome !!!
 
 # 🎙️ Meeting Recorder — Talk. Capture. Remember.
 
