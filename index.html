@@ -7,6 +7,36 @@
     body { font-family: sans-serif; padding: 20px; background: black;}
     button { margin: 6px; padding: 10px 20px; font-size: 16px;}
 	.btn-cl { text-align: center; margin-top: 30vh; }
+
+	/* footer */
+.powered {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: clamp(10px, 1.2vw, 14px); /* small on all screens */
+  letter-spacing: 1px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/* link highlight */
+.powered a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  padding: 2px 4px;
+  margin-left: 4px;
+  transition: all 0.2s ease;
+}
+
+.powered a:hover {
+  background: rgba(255,255,255,0.1);
+  border-bottom: 1px solid #fff;
+  opacity: 1;
+}
+	
   </style>
 </head>
 <body>
@@ -16,6 +46,10 @@
 		</div>
   <p id="msg"></p>
 
+<div class="powered">
+  powered by 
+  <a href="your-image-link.jpg" target="_blank">debajyoti</a>
+</div>
   <script>
     const startBtn = document.getElementById('startBtn');
     const stopBtn = document.getElementById('stopBtn');
